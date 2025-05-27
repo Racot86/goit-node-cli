@@ -28,7 +28,7 @@ The application uses command-line arguments to perform different actions:
 ### List all contacts
 
 ```
-node src/index.js -a list
+node index.js -a list
 ```
 
 This command displays all contacts in a formatted table.
@@ -36,7 +36,7 @@ This command displays all contacts in a formatted table.
 ### Get contact by ID
 
 ```
-node src/index.js -a get -i <contact_id>
+node index.js -a get -i <contact_id>
 ```
 
 Replace `<contact_id>` with the ID of the contact you want to retrieve.
@@ -44,7 +44,7 @@ Replace `<contact_id>` with the ID of the contact you want to retrieve.
 ### Add a new contact
 
 ```
-node src/index.js -a add -n <name> -e <email> -p <phone>
+node index.js -a add -n <name> -e <email> -p <phone>
 ```
 
 Replace:
@@ -55,7 +55,7 @@ Replace:
 ### Remove a contact
 
 ```
-node src/index.js -a remove -i <contact_id>
+node index.js -a remove -i <contact_id>
 ```
 
 Replace `<contact_id>` with the ID of the contact you want to remove.
